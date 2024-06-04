@@ -1,0 +1,7 @@
+{
+  "name": "renovate-test-security",
+  "dependencies": {
+    "express": "4.18.2",
+    "passport": "0.5.3"
+  }
+}

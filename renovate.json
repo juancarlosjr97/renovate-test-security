@@ -1,0 +1,24 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        ":automergeDisabled",
+        ":dependencyDashboard",
+        "group:all"
+    ],
+    "packageRules": [
+        {
+            "dependencyDashboardApproval": true,
+            "matchPackageNames": [
+                "passport"
+            ],
+            "groupName": "Node dependency - passport"
+        },
+        {
+            "dependencyDashboardApproval": true,
+            "matchPackageNames": [
+                "express"
+            ],
+            "groupName": "Node dependency - express"
+        }
+    ]
+}
