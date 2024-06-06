@@ -10,7 +10,7 @@
   "vulnerabilityAlerts": {
     "packageRules": [
       {
-        "allowedVersions": "<0.6",
+        "dependencyDashboardApproval": true,
         "matchPackageNames": [
           "passport"
         ]
