@@ -10,14 +10,6 @@
     {
       "dependencyDashboardApproval": true,
       "matchPackageNames": [
-        "passport"
-      ],
-      "groupName": "Node dependency - passport",
-      "allowedVersions": "<0.6"
-    },
-    {
-      "dependencyDashboardApproval": true,
-      "matchPackageNames": [
         "express"
       ],
       "groupName": "Node dependency - express"
@@ -31,7 +23,6 @@
         "matchPackageNames": [
           "passport"
         ],
-        "allowedVersions": "<0.6"
       },
       {
         "dependencyDashboardApproval": true,
