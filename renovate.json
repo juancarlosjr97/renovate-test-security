@@ -5,12 +5,14 @@
     ":dependencyDashboard",
     "group:all"
   ],
+  "dependencyDashboardOSVVulnerabilitySummary": "all",
   "packageRules": [
     {
+      "dependencyDashboardApproval": true,
       "matchPackageNames": [
         "passport"
       ],
-      "allowedVersions": "<0.6"
+      "groupName": "Node dependency - passport"
     },
     {
       "dependencyDashboardApproval": true,
