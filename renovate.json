@@ -1,25 +1,43 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": [
-        ":automergeDisabled",
-        ":dependencyDashboard",
-        "group:all"
-    ],
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    ":automergeDisabled",
+    ":dependencyDashboard",
+    "group:all"
+  ],
+  "packageRules": [
+    {
+      "dependencyDashboardApproval": true,
+      "matchPackageNames": [
+        "passport"
+      ],
+      "groupName": "Node dependency - passport"
+    },
+    {
+      "dependencyDashboardApproval": true,
+      "matchPackageNames": [
+        "express"
+      ],
+      "groupName": "Node dependency - express"
+    }
+  ],
+  "osvVulnerabilityAlerts": true,
+  "vulnerabilityAlerts": {
     "packageRules": [
-        {
-            "dependencyDashboardApproval": true,
-            "matchPackageNames": [
-                "passport"
-            ],
-            "groupName": "Node dependency - passport"
-        },
-        {
-            "dependencyDashboardApproval": true,
-            "matchPackageNames": [
-                "express"
-            ],
-            "groupName": "Node dependency - express"
-        }
-    ],
-    "osvVulnerabilityAlerts": true
+      {
+        "dependencyDashboardApproval": true,
+        "matchPackageNames": [
+          "passport"
+        ],
+        "groupName": "Node dependency - passport"
+      },
+      {
+        "dependencyDashboardApproval": true,
+        "matchPackageNames": [
+          "express"
+        ],
+        "groupName": "Node dependency - express"
+      }
+    ]
+  }
 }
