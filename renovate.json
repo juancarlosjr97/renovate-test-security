@@ -12,7 +12,8 @@
       "matchPackageNames": [
         "passport"
       ],
-      "groupName": "Node dependency - passport"
+      "groupName": "Node dependency - passport",
+      "allowedVersions": "<0.6"
     },
     {
       "dependencyDashboardApproval": true,
@@ -26,6 +27,7 @@
   "vulnerabilityAlerts": {
     "packageRules": [
       {
+        "dependencyDashboardApproval": true,
         "matchPackageNames": [
           "passport"
         ],
