@@ -6,20 +6,11 @@
     "group:all"
   ],
   "dependencyDashboardOSVVulnerabilitySummary": "all",
-  "packageRules": [
-    {
-      "dependencyDashboardApproval": true,
-      "matchPackageNames": [
-        "express"
-      ],
-      "groupName": "Node dependency - express"
-    }
-  ],
   "osvVulnerabilityAlerts": true,
   "vulnerabilityAlerts": {
     "packageRules": [
       {
-        "dependencyDashboardApproval": true,
+        "allowedVersions": "<0.6"
         "matchPackageNames": [
           "passport"
         ]
