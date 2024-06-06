@@ -22,7 +22,7 @@
         "dependencyDashboardApproval": true,
         "matchPackageNames": [
           "passport"
-        ],
+        ]
       },
       {
         "dependencyDashboardApproval": true,
